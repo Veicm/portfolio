@@ -1,0 +1,5 @@
+.profil-img img {
+    width: 500px;   /* gewünschte Breite */
+    height: auto;   /* Höhe proportional anpassen */
+    /*transform: scale(0.8); */
+}
