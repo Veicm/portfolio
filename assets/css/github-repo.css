@@ -1,0 +1,54 @@
+/* base layout */
+.ghr-container {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 30px 20px;
+}
+
+/* card */
+.ghr-item {
+  display: block;
+  padding: 40px;
+  margin: 10px;
+  border-radius: 20px;
+  background-color: #3a3939;
+  box-shadow: 0px 0px 25px 5px rgba(208, 170, 83, 0.75) inset;
+  -webkit-box-shadow: 0px 0px 25px 5px rgba(208, 170, 83, 0.75) inset;
+  -moz-box-shadow: 0px 0px 25px 5px rgba(208, 170, 83, 0.75) inset;
+  color: #b0b0b0;
+  text-decoration: none;
+  transition: transform 0.12s ease, box-shadow 0.12s ease;
+}
+.ghr-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 25px 10px rgba(222, 182, 89, 0.8) inset;
+  -webkit-box-shadow: 0px 0px 25px 10px rgba(222, 182, 89, 0.8) inset;
+  -moz-box-shadow: 0px 0px 25px 10px rgba(222, 182, 89, 0.8) inset;
+}
+
+.ghr-title {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 6px;
+  color: #967f4a;
+}
+.ghr-desc {
+  color: #e7e7e7;
+  min-height: 2.2em;
+}
+.ghr-meta {
+  font-size: 0.85rem;
+  color: #b0b0b0;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+/* per-repo override via attribute selector */
+
+/* Example:
+.ghr-item[data-repo="Veicm/portfolio"] {
+    border: 1px solid rgba(255,215,0,0.08); 
+}
+*/

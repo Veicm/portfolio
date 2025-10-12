@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x/-icon" href="../assets/img/favicon.png">
+    <title>Veicm's Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/base.css">
+    <link rel="stylesheet" href="../assets/css/github-repo.css">
+    <link rel="stylesheet" href="../assets/css/header.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Portfolio</h1>
+        </div>
+        <nav class="nav-links">
+            <a href="../">Home</a>
+            <a href="">Projects</a>
+            <a href="/">demo 2</a>
+            <a href="/">demo 3</a>
+        </nav>
+    </header>
+    
+    <div id="my-github-repos">
+        <script type="module" src="../assets/components/github-selected-repos.js"></script>
+        <github-selected-repos-light repos="
+        Veicm/Dev_Ink,
+        Veicm/ScriptumCheck,
+        Veicm/ScriptumSettings,
+        Veicm/Portfolio,
+        Veicm/robotlibrary
+        " class-prefix="ghr-"></github-selected-repos-light>
+    </div>
+
+
+<!--<script src="https://repowidget.vercel.app/assets/js/repoWidget.min.js"></script>
+<script src="repos.js"></script>-->
+</body>
+</html>
