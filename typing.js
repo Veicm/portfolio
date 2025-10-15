@@ -1,4 +1,9 @@
-const texts = ["developer", "programmer", "problem solver"];
+const texts = ["aspiring software developer",
+    "self-taught programmer",
+    "problem solver",
+    "programming hobbyist",
+    "backend enthusiast"
+];
 const typingSpeed = 100;
 const erasingSpeed = 50;
 const delayBetween = 1500;
