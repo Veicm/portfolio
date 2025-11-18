@@ -1,4 +1,5 @@
-const texts = ["aspiring software developer",
+const texts = [
+    "aspiring software developer",
     "self-taught programmer",
     "problem solver",
     "programming hobbyist",
