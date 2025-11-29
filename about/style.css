@@ -1,0 +1,58 @@
+main.about-main {
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 2rem 1.2rem;
+  font-family: "Inter", system-ui, sans-serif;
+  color: #e8e8e8;
+}
+
+/* Headings inside main */
+main.about-main h1,
+main.about-main h2 {
+  font-weight: 600;
+  line-height: 1.25;
+  margin: 0;
+}
+
+main.about-main h1 {
+  color: #efc664;
+  font-size: 2.5rem;
+  margin-bottom: 0.8rem;
+}
+
+main.about-main h2 {
+  color: #b7964a;
+  font-size: 1.75rem;
+  margin-top: 2.2rem;
+  margin-bottom: 0.6rem;
+}
+
+/* Intro section */
+main.about-main .intro .short-intro {
+  font-size: 1.3rem;
+  line-height: 1.6;
+  color: #bcbcbc;
+  max-width: 600px;
+}
+
+/* About Me */
+main.about-main .about-me p {
+  font-size: 1.1rem;
+  max-width: 650px;
+  margin-bottom: 1rem;
+  line-height: 1.65;
+  color: #c5c5c5;
+}
+
+/* Developer philosophy */
+main.about-main .dev-philosophy p {
+  font-size: 1.1rem;
+  max-width: 650px;
+  margin-bottom: 1rem;
+  line-height: 1.65;
+  color: #c5c5c5;
+}
+
+main.about-main section {
+  margin-bottom: 2rem;
+}

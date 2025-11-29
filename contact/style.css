@@ -1,0 +1,71 @@
+.headline {
+  text-align: center;
+  padding: 50px;
+}
+
+.headline h1 {
+  color: #efc664;
+  text-shadow: 0px 0px 21px #efc66480;
+  font-size: 7rem;
+  margin: auto;
+}
+
+.headline span {
+  color: #e2ca91;
+  margin: auto;
+  font-size: 2rem;
+}
+
+.contact-main {
+  max-width: 900px;
+  margin: auto;
+  padding: 2rem;
+  display: flex;
+  gap: 3rem;
+  font-family: Arial, sans-serif;
+  color: #bcbcbc;
+}
+
+.contact-left,
+.contact-right {
+  flex: 1;
+}
+
+.contact-left h2,
+.contact-right h2 {
+  margin-bottom: 1rem;
+  color: #b7964a;
+}
+
+.contact-box {
+  padding: 1rem;
+  border-left: 3px solid #444;
+  margin-bottom: 1.5rem;
+  border-radius: 4px;
+}
+
+.contact-box h3 {
+  margin: 0 0 0.5rem;
+  color: #8c733a;
+}
+
+.contact-box a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.contact-box a:hover {
+  text-decoration: underline;
+}
+
+.contact-right p {
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+.note-box {
+  margin-top: 2rem;
+  padding: 1rem;
+  border-radius: 4px;
+  border-left: 3px solid #444;
+}
