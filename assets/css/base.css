@@ -1,9 +1,10 @@
 html {
-    background-color: #1D1D1D;
-    color: #e7e7e7;
-    font-family: "Inter", system-ui, sans-serif;
+  background-color: #1d1d1d;
+  color: #e7e7e7;
+  font-family: "Inter", system-ui, sans-serif;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
+  color: #e7e7e7;
 }

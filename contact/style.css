@@ -35,6 +35,7 @@
 .contact-right h2 {
   margin-bottom: 1rem;
   color: #b7964a;
+  font-size: 1.75rem;
 }
 
 .contact-box {
@@ -47,18 +48,11 @@
 .contact-box h3 {
   margin: 0 0 0.5rem;
   color: #8c733a;
-}
-
-.contact-box a {
-  color: #ffffff;
-  text-decoration: none;
-}
-
-.contact-box a:hover {
-  text-decoration: underline;
+  font-size: 1.25rem;
 }
 
 .contact-right p {
+  font-size: 1.1rem;
   margin-bottom: 1rem;
   line-height: 1.5;
 }
@@ -68,4 +62,28 @@
   padding: 1rem;
   border-radius: 4px;
   border-left: 3px solid #444;
+}
+
+.link-btn {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  text-decoration: none;
+  color: #d0af64;
+  background: #303030;
+  border-radius: 25px;
+  transition: all 0.3s;
+}
+
+.link-btn:hover {
+  background: #d0af64;
+  color: #303030;
+  transform: scale(1.03);
+}
+
+.link-btn:active {
+  transform: scale(1);
+  background: #e8c470;
+  color: #242424;
 }

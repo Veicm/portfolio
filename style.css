@@ -1,9 +1,11 @@
 /* Welcome */
 .welcome {
+  height: 100vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px 40px;
+  margin-top: -10vh;
 }
 
 .headline {
@@ -52,4 +54,47 @@
   75% {
     opacity: 0;
   }
+}
+
+section {
+  margin-top: 50px;
+  padding: 0px 10%;
+  text-align: center;
+}
+
+section h2 {
+  color: #d3ae58;
+  font-size: 2rem;
+}
+
+section .plain {
+  font-size: 1.25rem;
+}
+
+#Contact {
+  margin-bottom: 40px;
+}
+
+.see-more-btn {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  text-decoration: none;
+  color: #d0af64;
+  background: #303030;
+  border-radius: 25px;
+  transition: all 0.3s;
+}
+
+.see-more-btn:hover {
+  background: #d0af64;
+  color: #303030;
+  transform: scale(1.03);
+}
+
+.see-more-btn:active {
+  transform: scale(1);
+  background: #e8c470;
+  color: #242424;
 }

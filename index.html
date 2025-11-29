@@ -10,9 +10,12 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="assets/css/base.css" />
+    <link rel="stylesheet" href="assets/css/skills.css" />
+    <link rel="stylesheet" href="assets/css/github-repo.css" />
     <link rel="stylesheet" href="assets/css/header.css" />
     <link rel="stylesheet" href="assets/css/footer.css" />
     <link rel="stylesheet" href="style.css" />
+    <script defer src="../assets/components/skills.js"></script>
   </head>
   <body>
     <header>
@@ -37,7 +40,72 @@
         <img src="assets/img/favicon.png" alt="Veicm's Logo" />
       </div>
     </div>
-    <p>This website is still in build</p>
+
+    <main>
+      <section id="about_me">
+        <h2>About Me</h2>
+        <p class="plain">
+          I'm a programming hobbyist based in Germany. I love creating
+          applications that enhance user experience and solve real-world
+          problems.
+        </p>
+        <a class="see-more-btn" href="about/">
+          <span>Read More</span>
+        </a>
+      </section>
+
+      <section id="skills">
+        <h2>My Skills</h2>
+
+        <div class="skill-container">
+          <div class="skill" data-name="Git" data-level="80"></div>
+          <div class="skill" data-name="Python" data-level="65"></div>
+          <div class="skill" data-name="VS-Code" data-level="65"></div>
+          <div class="skill" data-name="Touch Typing" data-level="50"></div>
+          <div class="skill" data-name="Linux" data-level="45"></div>
+          <div class="skill" data-name="Rust" data-level="10"></div>
+        </div>
+        <a class="see-more-btn" href="skills/">
+          <span>See More</span>
+        </a>
+      </section>
+
+      <section id="projects">
+        <h2>Projects</h2>
+
+        <div class="repos">
+          <script
+            type="module"
+            src="assets/components/github-selected-repos.js"
+          ></script>
+          <github-selected-repos-light
+            repos="
+            Veicm/Dev_Ink,
+            Veicm/ScriptumCheck,
+            Veicm/ScriptumSettings,
+            Veicm/robotlibrary,
+            Veicm/rust_training
+            "
+            class-prefix="ghr-"
+          ></github-selected-repos-light>
+        </div>
+        <a class="see-more-btn" href="projects/">
+          <span>See More</span>
+        </a>
+      </section>
+
+      <section id="Contact">
+        <h2>Let’s Connect</h2>
+        <p class="plain">
+          If something here sparked your interest or you want to discuss a
+          project in more detail, I’d be glad to hear from you. Reach out, share
+          your ideas, and let’s talk.
+        </p>
+        <a class="see-more-btn" href="contact/">
+          <span>Go to Contact Page</span>
+        </a>
+      </section>
+    </main>
 
     <div class="footer-divider"></div>
     <footer class="site-footer">
