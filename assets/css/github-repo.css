@@ -14,18 +14,12 @@
   margin: 10px;
   border-radius: 20px;
   background-color: #3a3939;
-  box-shadow: 0px 0px 25px 5px rgba(208, 170, 83, 0.75) inset;
-  -webkit-box-shadow: 0px 0px 25px 5px rgba(208, 170, 83, 0.75) inset;
-  -moz-box-shadow: 0px 0px 25px 5px rgba(208, 170, 83, 0.75) inset;
   color: #b0b0b0;
   text-decoration: none;
-  transition: transform 0.12s ease, box-shadow 0.12s ease;
+  transition: transform 0.12s ease;
 }
 .ghr-item:hover {
   transform: scale(1.05);
-  box-shadow: 0px 0px 25px 10px rgba(222, 182, 89, 0.8) inset;
-  -webkit-box-shadow: 0px 0px 25px 10px rgba(222, 182, 89, 0.8) inset;
-  -moz-box-shadow: 0px 0px 25px 10px rgba(222, 182, 89, 0.8) inset;
 }
 
 .ghr-title {
